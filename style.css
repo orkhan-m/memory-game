@@ -1,0 +1,106 @@
+/* Remove padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  background-color: #f3f3f3;
+  height: 100vh;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 40rem;
+
+  font-size: 3.4rem;
+}
+
+.nav-bar-title {
+  font-size: 4.4rem;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 5rem;
+}
+
+.restart-btn {
+  font-size: 2.4rem;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background-color: #f08c00;
+  border-radius: 46px;
+}
+
+.restart-btn:link,
+.restart-btn:visited {
+  text-decoration: none;
+}
+
+.restart-btn:hover,
+.restart-btn:active {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  transform: translateX(-2px) translateY(-2px);
+}
+
+.new-game-btn {
+  font-size: 2.4rem;
+  color: #495057;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background-color: #dee2e6;
+  border-radius: 46px;
+}
+
+.new-game-btn:link,
+.new-game-btn:visited {
+  text-decoration: none;
+}
+
+.new-game-btn:hover,
+.new-game-btn:active {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  transform: translateX(-2px) translateY(-2px);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.playground {
+  margin-top: 5rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 10rem 10rem;
+  grid-template-rows: 10rem 10rem;
+}
+
+.circle {
+  font-size: 4.2rem;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #343a40;
+  height: 10rem;
+  width: 10rem;
+
+  border-radius: 50%;
+}
